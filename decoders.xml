@@ -1,0 +1,15 @@
+<decoder name="pfsense">
+  <prematch>^\d \d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d.\d\d\d\d\d\d\p\d\d:\d\d</prematch>
+</decoder>
+
+<decoder name="pfsense">
+  <parent>pfsense</parent>
+  <regex offset="after_parent">^(\.+) filterlog \d+ - - \d+,,,\d+,(\w+),\w+,(\w+),(\w+),\d+,\S+,,\d+,\d+,\d+,\w+,\d+,(\w+),\d+,(\S+),(\S+),(\d+),(\d+),\d+</r>
+  <order>router,interface,firewallaction,direction,protocol,srcip,dstip,srcport,dstport</order>
+</decoder>
+
+<decoder name="pfsense">
+  <parent>pfsense</parent>
+  <regex offset="after_parent">^(\.+) filterlog \d+ - - \d+,,,\d+,(\w+),\w+,(\w+),(\w+),\d+,\S+,,\d+,\d+,\d+,\w+,\d+,(\w+),\d+,(\S+),(\S+),(\S+),(\S+),\d+</r>
+  <order>router,interface,firewallaction,direction,protocol,srcip,dstip,srcport,dstport</order>
+</decoder>

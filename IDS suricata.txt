@@ -1,0 +1,7 @@
+-----------------------------Remove
+
+ 3. IDS Installation: suricata
+Detects attacks (IDS)
+Can block attacks (IPS mode)
+Monitors traffic patterns (brute force, scans, exploits)
+------------------------------
