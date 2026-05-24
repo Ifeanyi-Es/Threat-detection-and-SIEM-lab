@@ -86,16 +86,14 @@ The external attacker simulates a threat actor over the internet while the ubunt
  
  ![Route_Configurations](images/networking/Route_configuration.png)
 
-    Figure 7: Routing Configuration : 
-    Enables communication between virtual interfaces
+    Figure 7: Routing Configuration : Enables communication between virtual interfaces
  </center>
 
  <center>
  
  ![NAT_Configurations](images/networking/NAT_Rules.png)
 
-    Figure 8: NAT Configuration : 
-    This enables the internal private devices access the internet
+    Figure 8: NAT Configuration : This enables the internal private devices access the internet
  </center>
 
 
@@ -103,8 +101,7 @@ The external attacker simulates a threat actor over the internet while the ubunt
  
 ![Portforwarding_Configurations](images/networking/Portforwarding_config.png)
 
-    Figure 9: Portforwarding Configuration : 
-    This exposes internal services to the internet for public reach. The ssh, web, and FTP services are intentionally exposed.
+    Figure 9: Portforwarding Configuration : This exposes internal services to the internet for public reach. The ssh, web, and FTP services are intentionally exposed.
 
  </center>
 
@@ -158,7 +155,7 @@ Installations was done using   <a href="https://documentation.wazuh.com/current/
 </center>
 
 
- 4. Pfsense Remote log configuration:
+ 3. Pfsense Remote log configuration:
  This was achieved by using the built-in Syslog forwarding feature in pfSense to send logs to the centralized manager. This approach serves as an alternative to installing Wazuh agents on network devices(e.g firewall, routers,switch,access point), which could potentially disrupt operations or cause system issues.
 
 - Configuration:
