@@ -84,7 +84,7 @@ The external attacker simulates a threat actor over the internet while the ubunt
 
  <center>
  
- ![Route_Configurations](images/networking/Route_Configuration.png)
+ ![Route_Configurations](images/networking/Route_configuration.png)
 
     Figure 7: Routing Configuration : 
     Enables communication between virtual interfaces
